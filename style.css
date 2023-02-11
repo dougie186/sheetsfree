@@ -1,0 +1,705 @@
+/***************************************************************************************/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+	margin:0;
+	padding:0; 
+	width: 848px;
+	vertical-align:top; 
+	background:url(images/back.gif) repeat-y left;
+	text-align:left;
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+img {
+	border:0;
+}
+
+strong {
+	font-weight: 500;
+}
+
+a {
+	border:none;
+	text-decoration:underline;
+	color:#333333;
+	font-weight:500;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+ul {
+	margin:0;
+	padding:0;
+	list-style:none
+}
+
+li {
+	font-family: Roboto, Arial;
+	background: none;
+	line-height:19px;
+	color:#333333;
+}
+
+li a {
+	color:#333333;
+	text-decoration:underline;
+	font-weight:normal;
+}
+
+li a:hover {
+	text-decoration:none;
+}
+
+.body {
+	float:right;
+	margin-top: -210px;
+	width:457px; height:100%;
+	font-size: 14px;
+	color:#333333;
+	line-height:17px;
+	vertical-align:top;
+}
+
+.welcome-text {
+	text-align: center;	
+}
+
+.main-text {
+	text-align: left;
+	padding-bottom: 40px;
+}
+
+#left-spiral {
+	height:14px;
+	width:auto;
+	transform: scaleX(-1);
+}
+
+#right-spiral {
+	height:14px;
+	width:auto;
+}
+
+#MEGA {
+	height: 10px;
+	width: auto;
+	margin-left: 5px;
+}
+
+#MEGA:hover {
+	transform: scale(.95);
+}
+
+#synthesia a {
+	line-height: normal;
+	display: inline-block;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-left: 5px;
+	text-decoration: none;
+}
+
+#synthesia a:hover {
+	transform: scale(.95);
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #666565;
+}
+
+::selection {
+  color: white;
+  background: #666565;
+}
+
+/****************************** HEADER *************************************************/
+
+.header {
+	width: 859px;
+	height: 192px;
+	
+}
+
+#header-bg {
+	width: 859px;
+	height: 192px;
+	position: absolute;
+	z-index: -1;
+}
+
+#header-text {
+	width: 859px;
+	height: 192px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	animation: header-animation 2.5s forwards .2s linear;
+}
+
+@keyframes header-animation {
+    0%{
+        transform: rotate(0) translateY(-5%);
+        opacity: 0;
+        }
+    15%{
+        transform: rotate(0) translateY(-5%);
+        opacity: 0;
+        }
+    60%{
+        transform: rotate(0) translateY(0);
+        opacity: 1;
+        }
+}
+
+/****************************** END HEADER *********************************************/
+
+/****************************** NAVBAR *************************************************/
+
+.navbar {
+	margin-top: 10px;
+	width: 618px;
+	height: 100%;
+	float:left;
+}
+#navigation {
+	width:309px;
+}
+#navigation a  {
+	background:url(images/navbar.png);
+	display:block;
+	height:34px;
+	text-indent:-9000px;
+}
+#navigation a.link1:hover {
+	background-position:-309px 0px;
+}
+#navigation a.link2 {
+	background-position:0px -34px;
+}
+#navigation a.link2:hover {
+	background-position:-309px -34px;
+}
+#navigation a.link3 {
+	background-position:0px -68px;
+}
+#navigation a.link3:hover {
+	background-position:-309px -68px;
+}
+#navigation a.link4 {
+	background-position:0px -102px;
+}
+#navigation a.link4:hover {
+	background-position:-309px -102px;
+}
+#navigation a.link5 {
+	background-position:0px -136px;
+}
+#navigation a.link5:hover {
+	background-position:-309px -136px;
+}
+#navigation a.link6 {
+	background-position:0px -170px;
+}
+#navigation a.link6:hover {
+	background-position:-309px -170px;
+}
+#navigation .navactive a.link1 {
+	background-position:-309px 0px;
+}
+#navigation .navactive a.link2 {
+	background-position:-309px -34px
+}
+#navigation .navactive a.link3 {
+	background-position:-309px -68px;
+}
+#navigation .navactive a.link4 {
+	background-position:-309px -102px;
+}
+#navigation .navactive a.link5 {
+	background-position:-309px -136px;
+}
+#navigation .navactive a.link6 {
+	background-position:-309px -170px;
+}
+
+/****************************** END NAVBAR *********************************************/
+	
+/****************************** MAIN PAGE **********************************************/
+
+#index-christmas-link {
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+#index-links {
+	font-weight: 400;
+	width: 700px;
+}
+
+#index-lists {
+	width: 700px;
+}
+
+.bandwidth {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 15.75px;
+	line-height: 18px;
+	font-weight: 500;
+}
+
+.bandwidth img {
+	height: 12px;
+	margin-right: 3.5px;
+	margin-left: 4px;
+}
+
+#date {
+	font-weight: 800;
+	letter-spacing: 1px;
+}
+/****************************** END MAIN PAGE ******************************************/
+
+/****************************** SHEETS *************************************************/
+
+.sheets-main-text {
+	text-align: left;
+	padding-bottom: 40px;
+	width: 700px;
+}
+
+.sheets-list-style {
+	font-size: 13.5px;
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	color:#333333;
+	line-height:17px;
+}
+
+.sheets-list-style a {
+	font-weight: 500;
+}
+
+.letter-header {
+	letter-spacing: 1px;
+	font-size: 14pt;
+	line-height: 32pt;
+	font-weight: 500;
+	margin-bottom: -15px;
+}
+
+/****************************** END SHEETS *********************************************/
+
+/****************************** BOOKS & THEMES *****************************************/
+
+.letter-header-books {
+	letter-spacing: 1px;
+	text-align: center;
+	font-size: 14pt;
+	line-height: 32pt;
+	font-weight: 500;
+	margin-bottom: -15px;
+}
+
+.books-navbar {
+	word-spacing: 14px;
+}
+
+.musicals a {
+	font-weight: 500;
+}
+
+#hamilton {
+	width: 100%;
+	height: auto;
+}
+
+#halloween {
+	width: 100%;
+	height: auto;
+	margin-bottom: -6px;
+}
+
+.halloween a {
+	font-weight: 500;
+}
+
+#christmas {
+	width: 100%;
+	height: auto;
+	margin-bottom: -6px;
+}
+
+.christmas a {
+	font-weight: 500;
+}
+
+#christmasbooks {
+	width: 100%;
+	height: auto;
+	margin-bottom: -6px;
+}
+
+h6 {
+	font-size: 12pt;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.christmas-headers {
+	font-size: 12pt;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-bottom: -5px;
+	margin-top: 32px;
+}
+
+.holidays-list-style {
+	text-align: left;
+	width: 700px;
+	font-size: 13.5px;
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	color:#333333;
+	line-height:17px;
+}
+
+.holidays-list-style a {
+	font-weight: 500;
+}
+
+.musicals-headers {
+	font-size: 12pt;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-bottom: -5px;
+	margin-top: 32px;
+}
+
+.musicals-list-style {
+	text-align: left;
+	width: 700px;
+	font-size: 13.5px;
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	color: #333333;
+	line-height: 17px;
+}
+
+.musicals-list-style li {
+	margin-bottom: 5px;
+}
+
+.musicals-list-style a {
+	font-weight: 500;
+}
+
+.books {
+	padding-bottom: 4px;
+}
+
+.musicals {
+	padding-bottom: 15px;
+}
+
+.holidays {
+	padding-bottom: 4px;
+}
+
+.rent-book {
+	width: 475px;
+}
+
+/** COLLAPSIBLE SONG LIST **/
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible-list {
+	background-color: white;
+	color: #333333;
+	cursor: pointer;
+	width: 18%;
+	padding: 0 0;
+	border: none;
+	text-align: left;
+	letter-spacing: 0px;
+	outline: none;
+	font-size: 13px;
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	line-height:17px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active2, .collapsible-list:hover {
+	color: black;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content-song-list {
+	padding: 9px 18px;
+	display: none;
+	overflow: hidden;
+	background-color: none;
+	border: 2px solid;
+	border-color: #666565;
+	margin-bottom: 29px;
+	margin-top: 5px;
+}
+
+.collapsible-list:after {
+	content: '\002B';
+	color: black;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+
+.active:after {
+	content: "\2212";
+}
+
+.list-style {
+	font-size: 13.5px;
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	color:#333333;
+	line-height:17px;
+}
+
+.list-style-rent {
+	column-count: 2;
+	font-size: 13.5px;
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	color:#333333;
+	line-height:17px;
+}
+
+.song-list-container {
+	margin-top: -5px;
+	margin-bottom: 25px;
+}
+
+/** END COLLAPSIBLE SONG LIST **/
+
+/****************************** END BOOKS & THEMES *************************************/
+
+/****************************** VIDEOS *************************************************/
+
+.videotitle {
+	font-weight: 500;
+	text-decoration:underline;
+}
+
+.video-item {
+	margin-bottom: 50px;
+}
+
+/****************************** END VIDEOS *********************************************/
+
+/****************************** FAQ ****************************************************/
+
+h1 {
+	font-size: 13pt;
+	line-height: 32pt;
+	font-weight: 500;
+	margin-bottom: -15px;
+}
+
+.welcome-text-faq {
+	text-align: left;
+	font-weight: 500;	
+}
+
+/****************************** END FAQ ************************************************/
+
+/****************************** CONTACT ************************************************/
+
+.email-button-container {
+	margin-top: -15px;
+	margin-bottom: 15px;
+}
+
+#email-button a {
+	display: block;
+	background:url(images/emailbutton.png);
+	height:55px;
+	text-indent:-9000px;
+}
+
+#email-button a.link1:hover {
+	background-position: -457px 0px;
+}
+
+.contact-list {
+	font-size: 17pt;
+	font-weight: 500;
+	line-height: 25px;
+	text-transform: uppercase;
+	font-style: normal;
+	margin-bottom: 30px;
+}
+
+.contact-list li {
+	display:inline;
+}
+
+h2 {
+	font-size: 16pt;
+	font-weight: 500;
+	line-height: 24px;
+}
+
+h3 {
+	font-size: 14pt;
+	font-weight: 400;
+	line-height: 23px;
+}
+
+h4 {
+	font-size: 12pt;
+	font-weight: 300;
+	line-height: 23px;
+}
+
+#google-search {
+	width: 425px;
+	height: auto;
+}
+
+ol {
+	font-size: 14pt;
+	font-weight: 700;
+	display: block;
+	list-style-type: decimal;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 20px;
+}
+
+#span-song-list-button {
+	width: 18%;
+	padding: 0 0;
+	border: none;
+	text-align: left;
+	letter-spacing: 0px;
+	outline: none;
+	font-size: 12pt;
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+/****************************** END CONTACT ********************************************/
+
+/****************************** FOOTER *************************************************/
+
+.footer  {
+	width: 140px;
+	color:#ffffff;
+	line-height:14px;
+	font-size:11px;
+	margin-left:6px;
+	padding-top: 50px;
+	margin-bottom:-10px;
+	position: fixed;
+	bottom: 0;
+	z-index: -1;
+}
+
+.footer p  {
+	text-align: center;
+	font-size: 10.5px;
+	margin-bottom: 1px;
+}
+
+.footer a{
+	color:#ffffff;
+	text-decoration:underline;
+	font-weight:bold;
+	line-height:14px;
+	font-size:11px;
+}
+
+.footer a:hover{
+	text-decoration:none;
+}
+
+.paypal {
+	margin-top: -5px;
+}
+
+.slides-container {
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	margin-top: -10px;
+}
+
+.slides-container p {
+	font-family:  Roboto, Arial;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+/** MAIL ICONS **/
+
+.contact-mail-icons {
+	text-align: center;
+}
+
+.mail-icons a {
+    font-size: 15px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+	margin: 5px;
+    line-height: 42px;
+    text-align: center;
+    display: inline-block;
+}
+.mail-icons a :hover{
+    color: #cac8c8;
+}
+
+.mail-icons a :active{
+	color: #cac8c8;
+	transform: scale(.9);
+}
+
+/** END MAIL ICONS **/
+
+/****************************** END FOOTER *********************************************/
+
+/*  .snow{
+	width: 859px;
+	height: 192px;
+	background-image:
+        url("images/snow/snow1.png"),
+        url("images/snow/snow2.png"),
+        url("images/snow/snow3.png");
+	animation: snow 32s linear infinite;    
+}
+
+@keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px}
+}
+
+Just change "header" to "header snow"
+ */
+
+video { 
+   width: 100%;
+   max-width: 700px;
+   height: auto;
+   margin-top: -5px;
+   margin-bottom: -5px;
+}
